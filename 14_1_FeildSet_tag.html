@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Field Set</title>
+    <style>
+        fieldset{
+            font-family: "Comic Sans MS",sans-serif;
+            border: 2px solid orangered;
+            margin: 20px;
+            padding: 15px;
+        }
+        legend{
+            font-family: "Old English Text MT",sans-serif;
+            background-color: orangered;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 50px;
+            box-shadow: 0 0 15px black;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+
+<!-- HTML FieldSet tag Example-->
+<form>
+   <!--Perdonal Information-->
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label>Employee Name</label>
+        <input type="text">
+        <br>
+        <label>Company Name</label>
+        <select>
+            <option>Infosys</option>
+            <option>HCL</option>
+            <option>Happiest mind</option>
+            <option>NIIT Data</option>
+        </select>
+        <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Education Details</legend>
+        <label>COllege Name</label>
+        <input type="text">
+        <br>
+        <label>University Name</label>
+        <input type="text">
+        <br>
+        <label>About your college</label>
+        <textarea rows="5" cols="10"></textarea>
+    </fieldset>
+</form>
+</body>
+</html>
